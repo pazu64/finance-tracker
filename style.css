@@ -1,0 +1,79 @@
+:root {
+    --ink: #1a1a1a;
+    --paper: #fbf3dc;
+    --blue: #aedbf7;
+    --yellow: #fcde55;
+    --pink: #ffafc7;
+    --green: #ace6a6;
+    --orange: #FFC48C;
+    --white: #FFffff;
+    --shadow: 5px 5px 0 var(--ink);
+    --shadow-ig: 7px 7px 0 var(--ink);
+    --radius: 16px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: var(--paper);
+}
+main {
+    width: 373px;
+    height: 650px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: var(--shadow-ig);
+    background-color: var(--paper);
+}
+
+.top {
+    background-color: var(--blue);
+    min-width: 100% - 15px;
+    border-radius: 10px;
+    padding: 15px;
+    border-bottom: 2px solid black;
+    margin-bottom: 15px;
+}
+.name-top{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.initial{
+    display: flex;
+    justify-content: flex-start;
+    background-color: var(--yellow);
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size:18px;
+}
+.label-container {
+    display: flex;
+    justify-content: space-around;
+}
+.label {
+    background-color: var(--yellow);
+    border: 2px solid var(--ink);
+    padding: 3px 5px;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.total-saldo {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.saldo {
+    gap: 10px;
+}
